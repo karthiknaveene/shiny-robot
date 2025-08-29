@@ -7,7 +7,7 @@ pipeline {
                 stage('Compile') {
                     steps {
                         echo 'Compiling...'
-                        sleep 5
+                        sleep 2
                     }
                 }
                 stage('Package') {
